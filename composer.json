@@ -1,0 +1,27 @@
+{
+    "name": "jwilson8767/quakerhaven-com",
+    "type": "project",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wp-cli/wp-cli": "^0.24.1",
+        "psy/psysh": "~0.6", //required by wp-cli
+        "php": ">=5.4",
+        "johnpbloch/wordpress": "~4.6", //wordpress packaged for composer
+        "wpackagist-plugin/contact-form-7": "^4.5",
+        "wpackagist-plugin/disable-comments": "^1.5",
+        "wpackagist-plugin/nextgen-gallery": "^2.1"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Josh Wilson",
+            "email": "jwilson8767@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
