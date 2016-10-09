@@ -20,7 +20,7 @@ define('WP_PLUGIN_URL', $request_prefix . $_SERVER['HTTP_HOST'] . '/plugins');
 define('WPMU_PLUGIN_DIR', dirname(__FILE__) . '/plugins/mustuse');
 define('WPMU_PLUGIN_URL', $request_prefix . $_SERVER['HTTP_HOST'] . '/plugins/mustuse');
 
-require_once('secrets.php');
+require_once('wp-secrets.php');
 
 define('WP_DEBUG', $_SERVER["WP_DEBUG"]);
 
