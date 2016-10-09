@@ -6,6 +6,12 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
+
+RewriteRule ^wp-admin/ /wp/wp-admin [N,NC]
+RewriteRule ^wp-content/plugins /plugins [N,NC]
+RewriteRule ^wp-admin/ /wp/wp-admin [N,NC]
+RewriteRule ^wp-content/themes /themes [N,NC]
+
 </IfModule>
 # END WordPress
 

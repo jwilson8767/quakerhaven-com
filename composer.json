@@ -43,8 +43,8 @@
   },
   "scripts" : {
     "post-install-cmd" : [
-      "sudo ln -s vendor/wp-cli/wp-cli/bin/wp /usr/bin/wp",
-      "source vendor/wp-cli/wp-cli/utils/wp-completion.bash",
+      "sudo ln -s /var/www/html/vendor/wp-cli/wp-cli/bin/wp /usr/bin/wp",
+      "source /var/www/html/vendor/wp-cli/wp-cli/utils/wp-completion.bash",
       "source ~/.bash_profile"
     ]
   }
